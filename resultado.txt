@@ -1,0 +1,5 @@
+
+Resultado: 1
+b'el lugar decirme Carla esto debe de hacer esto no debes de hacer esto est\xc3\xa1 bien o est\xc3\xa1 mal mi pap\xc3\xa1 prefiere contarme historias sus historia s\xc3\xb3lo que ha formado las decisiones que tom\xc3\xb3 la vida mucho m\xc3\xa1s de lo que se puede imaginar les doy un ejemplo cuando ten\xc3\xada 10 a\xc3\xb1os mi pap\xc3\xa1 vivi\xc3\xb3 una de las situaciones m\xc3\xa1s escalofriantes que alguien se puede imaginar regresando de una cena familiar en Cuernavaca se encuentra con una de las nanas flotando boca abajo en la alberca'
+Resultado: 2
+b'mi pap\xc3\xa1 se echa inmediatamente al agua saca la jovencita'

@@ -25,10 +25,16 @@ def transcribe_file(speech_file):
 
     response = client.recognize(config, audio)
 
+    textFile = ""
+    fileContent = open('resultado.txt', 'w')
     for index, result in enumerate(response.results):
         print("Resultado: " + str(index+1))
-        print(result.alternatives[0].transcript.encode('utf-8', 'strict'))
+        responseIndex = result.alternatives[0].transcript.encode('utf-8', 'strict')
+        print(responseIndex)
         print("")
+        fileContent.write("\nResultado: " + str(index+1) + "\n")
+        fileContent.write(str(responseIndex))
+    fileContent.close()
 
 if __name__ == '__main__':
     transcribe_file('prueba.wav')
